@@ -5,10 +5,10 @@ def func2(x, y):
     print(x**y)
 
 def func3(x):
-    q=x+10
-    while x<q:
-        x=x+1
+    for i in range(0, 10):
+        x+=1
         print x
+
 
 x=int(raw_input('Enter a number from 1 to 9:\n'))
 
